@@ -1,0 +1,8 @@
+var hunText = ["Festék rovar olaj, vászon  60x80 cm 2018",
+"Fény teremtmény  olaj, vászon 120x150 cm 2018",
+"Hõkamerás festéklény olaj, vászon 120x150 cm 2018",
+"Hõlény olaj, vászon 110x150 cm 2019"];
+var engText = ["Paint insect oil, canvas 60x80 cm 2018",
+"Clarity creature oil, canvas 120x150 cm 2018",
+"Thermal imaging paint creature oil, canvas 120x150 cm 2018",
+"Warmth creature oil, canvas 110x150 cm 2019"];

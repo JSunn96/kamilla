@@ -1,0 +1,2 @@
+var hunText = ["Minta áramlat <br>ceruza, papír <br>70x100 cm <br>2018"];
+var engText = ["Pattern flow <br>pencil, paper<br> 70x100 cm <br>2018"];

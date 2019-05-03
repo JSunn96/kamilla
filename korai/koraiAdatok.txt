@@ -1,0 +1,6 @@
+var hunText = ["Éjszakai fények 2014 90x120 cm 2014",
+"Mintaszivacsora akril, vászon 100x120 cm 2015",
+"Tükrözõdõ rend akril, vászon 90x120 cm 2014"];
+var engText = ["Night lights oil, canvas 90x120 cm 2014",
+"Patternbunnydinner acrylic, canvas 100x120 cm 2015",
+"Reflective system acrylic, canvas 90x120 cm 2014"];

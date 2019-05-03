@@ -1,0 +1,16 @@
+{
+  "name": "kovarikamilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.js",
+  "scripts": {
+    "deploy": "gh-paged -d kovarikamilla"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Jsunn96/kamilla",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

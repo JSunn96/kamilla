@@ -1,0 +1,6 @@
+var hunText = ["Hiperugrás <br>az erdõben <br>papír, ceruza<br> 100x140 cm <br>2017",
+"Nappali<br> vakító fényben <br>papír, akvarell<br> 70x100 cm <br>",
+"Hiperugrás <br>a nappaliban<br> papír, ceruza<br> 30x30 cm <br>2017"];
+var engText = ["Hyperjump <br>in the forest<br>paper, pencil <br>100x140 cm <br>2017",
+"Living room <br>in glowing light<br> paper, aquarelle<br> 70x100 cm <br>2018",
+"Hyperjump <br>in the <br>living room <br>paper, pencil <br>30x30 cm<br> 2017"];

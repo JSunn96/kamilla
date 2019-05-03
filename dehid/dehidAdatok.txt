@@ -1,0 +1,21 @@
+var hunText = ["A négy elem felrobbanása olaj, vászon 130x160 cm 2016",
+"Szupernova (avagy spontán robbantás hipergalaktikus térben) olaj, vászon 100x130 cm 2015 ",
+"Hõkamerával a bardóban olaj, vászon 100x130 cm 2017",
+"A káprázattest felvétele  olaj, vászon 110x160 cm 2017",
+"Tudattér olaj, vászon 100x140 cm  2017",
+"Akadálytalan tudatosság olaj, vászon 100x140 cm 2017",
+"Vörös óriás olaj, vászon 130x160 cm 2017",
+"A megfogalmazhatatlan Legfelsõbb Létezõ anyagi megjelenésének ábrázolására tett kísérlet olaj, vászon 100x150 cm 2018",
+"Szigetcsoport olaj, plexi 40x80 cm 2018",
+"Irány olaj, plexi 100x150 cm 2018"];
+
+var engText = ["The four elements explosion oil, canvas 130x160 cm 2016",
+"Supernova (spontaneus spce explosion in hypealatic space) oil, canvas 100x130 cm 2015",
+"In the bardo with thermal imager oil, canvas 100x130 cm 2017",
+"Pick up the delusion body oil, canvas 110x160 cm 2017",
+"Consciousness space oil, canvas  100x140 cm  2017",
+"Untrammelled consciousness oil, canvas 100x140 cm 2017",
+"Red giant oil, canvas 130x160 cm 2017",
+"oil, canvas 100x150 cm 2018",
+"Archipelago oil, plexi  40x80 cm 2018",
+"Lane oil, plexi 100x150 cm 2018"];

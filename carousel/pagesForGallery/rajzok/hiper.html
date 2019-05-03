@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- //Jquery-->
+    <!--  //Bootsrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--  //Bootsrap -->
+    <link rel="stylesheet" type="text/css" href="all.css">
+    <!-- //Lightgallery CSS-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css" />
+    <link type="text/css" rel="stylesheet" href="lightgallery.css" />
+    <!-- //Bootsrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- //Bootsrap-->
+    <!-- //Lightgallery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+    <!-- //Lightgallery-->
+    <title>Hiperugrás</title>
+</head>
+
+<body>
+    <div class="container-fluid my-container">
+        <div class="row my-row">
+            <div class="col-12 my-col">
+                    <span class=""><a href="../../../works/rajzok/rajzok.html"><input type="button" value="" class="gomb"></a></span>
+                <!--CAROUSEL STARTS HERE -->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active" id="lightgallery">
+                            <a href="hiper/hiper1.jpg">
+                                <img src="hiper/hiper1.jpg" alt="..." class="img-responsive" id="dh1">
+                                <div class="carousel-caption" >
+                                    <p>Hiperugrás <br>az erdőben <br>papír, ceruza<br> 100x140 cm <br>2017</p>
+                                 </div>
+                            </a>
+                        </div>
+                        <div class="item" id="lightgallery2">
+                            <a href="hiper/hiper2.jpg">
+                                <img src="hiper/hiper2.jpg" alt="..." class="img-responsive" id="dh2">
+                                <div class="carousel-caption" >
+                                    <p>Nappali<br> vakító fényben <br>papír, akvarell<br> 70x100 cm <br></p>
+                                 </div>
+                            </a>
+                        </div>
+                        <div class="item" id="lightgallery3">
+                            <a href="hiper/hiper3.jpg">
+                                <img src="hiper/hiper3.jpg" alt="..." class="img-responsive" id="dh3">
+                                <div class="carousel-caption" >
+                                    <p>Hiperugrás <br>a nappaliban<br> papír, ceruza<br> 30x30 cm <br>2017</p>
+                                 </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"
+                        style="background:none !important" id="left" onclick="Prev();">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"
+                        style="background:none !important; right:10.5% !important" id="right" onclick="Next();">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!--CAROUSEL ENDS HERE -->
+            </div>
+            
+        </div>
+        <div class="row my-row2">
+            <div class="col my-col2" id="indicators">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="hiper/hiper1thumb.png" alt="..."></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"><img src="hiper/hiper2thumb.png" alt="..."></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"><img src="hiper/hiper3thumb.png" alt="..."></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script>
+            $('#carousel-example-generic').carousel({
+        interval: false
+    }); 
+        
+        </script>
+    <script type="text/javascript" src="open.js"> </script>
+</body>
+</body>
+
+</html>

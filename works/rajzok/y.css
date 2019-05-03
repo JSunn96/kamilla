@@ -1,0 +1,324 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+   
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav  nav nav"
+        "main figure main"
+        "main figcaption main";
+    max-width: 95vw;
+
+}
+
+
+.navbar-nav > li > a {
+    color: black;
+    background-color: white;
+}
+
+.navbar-nav > li > a:hover {
+    color: orchid;
+    background-color: white;
+}
+
+.text {
+    margin-bottom: 0;
+}
+
+span {
+   display: block;
+}
+
+p {
+   text-align: justify;
+}
+
+
+
+ul {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+ul li {
+    text-transform: uppercase;
+    margin: 0 20px 0 20px;
+
+}
+
+
+
+
+
+
+
+#eng {
+    display: none;
+}
+
+
+header {
+   
+ 
+    width: 100vw;
+    height: 10vh;
+    grid-area: header;
+
+
+}
+
+
+h1 {
+
+
+
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 42px;
+    
+ 
+    word-spacing: 40px;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom:20px;
+}
+
+
+nav {
+
+
+    grid-area: nav;
+    height: 5vh;
+    width: 100vw;
+    
+
+}
+
+main {
+    grid-area: main;
+    width: 100vw;
+
+
+
+}
+
+section {
+    grid-area: section;
+
+
+}
+
+
+
+
+p {
+    font-size: 1em;
+   text-align: center;
+   margin: 0 auto 30px;
+}
+
+#change_lng {
+    position: absolute;
+    margin-left: 15%;
+    border: none !important;
+    background-color: white !important;
+
+}
+
+
+#change_lng:hover {
+    color: orchid;
+    cursor: pointer;
+}
+
+
+#more {
+    display: none;
+
+
+}
+
+#myBtn {
+    text-align: center;
+    margin: 0 45%;
+
+
+}
+
+#myBtn:hover {
+    color: orchid;
+
+}
+
+
+article {
+    grid-area: article;
+
+}
+
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: figure;
+
+    width: 100vw;
+
+
+}
+
+figure a:hover {
+    cursor:zoom-in;
+}
+
+figcaption{
+    grid-area: figcaption;
+    height: auto;
+    width: 90vw;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+
+}
+
+
+
+
+img {
+
+
+    object-fit: contain;
+    margin: 1em;
+    padding: 0;
+    width: 683px;
+    height: 511.5px;
+
+
+}
+
+/*
+.container {
+    padding-left: 230px;
+}
+
+.navbar-nav {
+    padding-right: 1.5em;
+}
+*/
+/***read more button style***/
+
+#readMore {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readmore2 {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readMore:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+#readMore2:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+#readmore3 {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readMore4 {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readMore3:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+#readMore4:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+
+#readmore3:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+#readMore:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+#readmore2:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+#readmore4:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.light {
+    display:none;
+}
+
+#toggleImage:hover{
+    cursor:zoom-in;
+}
+

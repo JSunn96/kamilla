@@ -1,0 +1,232 @@
+html {
+
+    height: 100vh;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    font-family: 'Muli', sans-serif;
+}
+
+.my-container {
+    background-color: cyan;
+    height: 100vh;
+
+
+
+}
+
+
+
+.pseudoparent {
+    position: relative;
+}
+
+
+
+.my-row {
+    background-color: green;
+
+}
+
+.my-row2 {
+
+    height: 15vh;
+
+
+}
+
+
+
+
+.my-col {
+    background-color: white;
+    height: 85vh;
+
+}
+
+.my-col1 {
+    background-color: white;
+    height: 85vh;
+
+}
+
+.my-col2 {
+    background-color: white;
+    height: 15vh;
+
+    overflow: hidden;
+
+
+
+}
+
+
+
+
+/*Carousel design*/
+.left carousel-control {
+    background-color: white !important;
+}
+
+.right carousel-control {
+    background-color: white !important;
+}
+
+.carousel-indicators {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 10px;
+}
+
+.carousel-indicators img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+
+
+
+}
+
+
+#carousel-example-generic {
+    height: 85vh;
+    width: 95vw;
+
+}
+
+.item {
+    height: 85vh;
+    width: 85vw;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+#dh1 {
+    object-fit: contain;
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#dh2 {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+#dh3 {
+    object-fit: contain;
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+a:hover {
+    cursor: zoom-in;
+}
+
+
+.carousel-caption {
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    color: black;
+    margin-left: 16.5em;
+    margin-bottom: 15em;
+    font-weight: none;
+    text-decoration: none;
+}
+
+.carousel-inner {
+    width: 85vw;
+    padding: 0;
+
+
+}
+
+
+
+
+
+
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    margin: auto;
+}
+
+
+#left:hover {
+    cursor: pointer;
+}
+
+#right:hover {
+    cursor: pointer;
+}
+
+.gomb {
+    border: none;
+    color: white;
+    background-color: white;
+    background-image: url('arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    margin:2 auto;
+    left: 0;
+    right: 1 auto;
+   
+
+}
+
+.gombok {
+    margin:1em;
+}
+
+#dynamicText {
+
+}
+
+p {
+    text-align: justify;
+
+}

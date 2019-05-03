@@ -1,0 +1,316 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+   
+  
+
+}
+
+
+.navbar-nav > li > a {
+    color: black;
+    background-color: white;
+}
+
+.navbar-nav > li > a:hover {
+    color: orchid;
+    background-color: white;
+}
+
+
+
+
+ul {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+ul li {
+    text-transform: uppercase;
+    margin: 0 20px 0 20px;
+
+}
+
+
+
+
+
+
+
+#eng {
+    display: none;
+}
+
+
+header {
+   
+ 
+    width: 100vw;
+    height: 10vh;
+    grid-area: header;
+
+
+}
+
+
+h1 {
+
+
+
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 42px;
+    
+ 
+    word-spacing: 40px;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom:20px;
+}
+
+
+nav {
+
+
+    grid-area: nav;
+    height: 5vh;
+    width: 100vw;
+    
+
+}
+
+div #back {
+background:url('back.jpg');
+background-size:contain;
+background-repeat:no-repeat;
+background-position:center;
+
+
+
+}
+
+section {
+    grid-area: section;
+
+
+}
+
+
+
+
+p {
+    font-size: 2em;
+   text-align: center;
+   margin: 0;
+}
+
+#change_lng {
+    position: absolute;
+    margin-left: 15%;
+    border: none !important;
+    background-color: white !important;
+
+}
+
+
+#change_lng:hover {
+    color: orchid;
+    cursor: pointer;
+}
+
+
+#more {
+    display: none;
+
+
+}
+
+#myBtn {
+    text-align: center;
+    margin: 0 45%;
+
+
+}
+
+#myBtn:hover {
+    color: orchid;
+
+}
+
+
+article {
+    grid-area: article;
+
+}
+
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: figure;
+
+    width: 100vw;
+
+
+}
+
+figure a:hover {
+    cursor:zoom-in;
+}
+
+figcaption {
+    grid-area: figcaption;
+    height: auto;
+    width: 100vw;
+    text-align: center;
+
+}
+
+
+
+
+
+/*
+.container {
+    padding-left: 230px;
+}
+
+.navbar-nav {
+    padding-right: 1.5em;
+}
+*/
+/***read more button style***/
+
+#readMore {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readmore2 {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readMore:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+#readmore2:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+#readmore3 {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readmore4 {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#readmore3:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+#readmore4:hover {
+    border: none;
+    background-color: white;
+    color: orchid;
+}
+
+
+#readmore3:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+#readMore:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+#readmore2:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+#readmore4:focus {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0 !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+
+.fa {
+    padding: 18px;
+    font-size: 30px;
+    width: 2em;
+    height:2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.3;
+  }
+  
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Insta */
+  .fa-instagram {
+    background-image:url('insta.png');
+    background-size:cover;
+    color: white;
+  }
