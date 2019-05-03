@@ -4,7 +4,7 @@
   "description": "",
   "main": "home.js",
   "scripts": {
-    "deploy": "gh-paged -d kovarikamilla"
+    "deploy": "gh-pages -d kovarikamilla"
   },
   "keywords": [],
   "author": "",
