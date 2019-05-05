@@ -22,6 +22,29 @@ body {
 }
 
 
+.navbar-nav > li > a {
+    color: black;
+    background-color: white;
+}
+
+.navbar-nav > li > a:hover {
+    color: rgba(40, 115, 255, 0.883);
+    background-color: white;
+}
+
+
+.text {
+    margin-bottom: 0;
+}
+
+span {
+   display: block;
+}
+
+p {
+   text-align: justify;
+}
+
 
 
 ul {
@@ -68,9 +91,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 42px;
-    
+    word-spacing: 0.5em;
  
-    word-spacing: 40px;
+    
 
 
 
@@ -100,48 +123,33 @@ main {
 
 }
 
-.navbar-nav > li > a {
-    color: black;
-    background-color: white;
-}
-
-.navbar-nav > li > a:hover {
-    color: orchid;
-    background-color: white;
-}
-
-
-
 section {
     grid-area: section;
 
 
 }
 
-.text {
-    margin-bottom: 0;
-}
 
-span {
-   display: block;
-}
+
 
 p {
+    font-size: 1em;
    text-align: justify;
+   margin: 0 auto 30px;
 }
-
 
 #change_lng {
     position: absolute;
-    margin-left: 15%;
+    margin-left:90%;
+    margin-top:2%;
     border: none !important;
-    background-color: white !important;
+    background-color:white !important;
 
 }
 
 
 #change_lng:hover {
-    color: orchid;
+    color: rgba(71, 133, 248, 0.883);
     cursor: pointer;
 }
 
@@ -199,16 +207,6 @@ figcaption{
 
 }
 
-.text {
-   width: 80vw;
-    word-wrap: break-word;
-    text-align: center;
-    margin: 0 auto;
-  
-    
-   
-}
-
 
 
 
@@ -250,13 +248,13 @@ img {
 #readMore:hover {
     border: none;
     background-color: white;
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
 }
 
 #readmore2:hover {
     border: none;
     background-color: white;
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
 }
 
 #readmore3 {
@@ -274,13 +272,13 @@ img {
 #readmore3:hover {
     border: none;
     background-color: white;
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
 }
 
 #readmore4:hover {
     border: none;
     background-color: white;
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
 }
 
 
@@ -312,12 +310,18 @@ img {
     outline: 0 !important;
 }
 
+
 .btn:focus,
 .btn:active {
     outline: none !important;
     box-shadow: none;
 }
 
+.light {
+    display:none;
+}
 
-
+#toggleImage:hover{
+    cursor:zoom-in;
+}
 

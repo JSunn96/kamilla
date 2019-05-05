@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-nav > li > a:hover {
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
     background-color: white;
 }
 
@@ -136,15 +136,16 @@ p {
 
 #change_lng {
     position: absolute;
-    margin-left: 15%;
+    margin-left:90%;
+    margin-top:2%;
     border: none !important;
-    background-color: white !important;
+    background-color:white !important;
 
 }
 
 
 #change_lng:hover {
-    color: orchid;
+    color: rgba(71, 133, 248, 0.883);
     cursor: pointer;
 }
 

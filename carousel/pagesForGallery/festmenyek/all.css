@@ -16,9 +16,10 @@ body {
 }
 
 .navbar-nav > li > a:hover {
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
     background-color: white;
 }
+
 
 
 

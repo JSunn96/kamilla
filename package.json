@@ -4,12 +4,12 @@
   "description": "",
   "main": "home.js",
   "scripts": {
-    "deploy": "gh-paged -d kovarikamilla"
+    "deploy": "gh-pages -d kamilla"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Jsunn96/kamilla",
+  "homepage": "https://JSunn96.github.io/kovarikamilla",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
