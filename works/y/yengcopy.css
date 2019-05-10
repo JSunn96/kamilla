@@ -68,7 +68,7 @@ ul li {
 
 
 
-#hun {
+#eng {
     display: none;
 }
 
@@ -505,7 +505,7 @@ img {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-        font-size: 7vw;
+        font-size: 6vw;
         text-transform: uppercase;
         letter-spacing: 4px;
         word-spacing: 0;
@@ -683,7 +683,7 @@ img {
 
     ul li {
         text-transform: uppercase;
-        margin: 0 5px 0 5px;
+        margin: 0 2px 0 2px;
         font-size: 1em;
 
     }
