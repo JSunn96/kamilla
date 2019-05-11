@@ -16,9 +16,10 @@ body {
 }
 
 .navbar-nav > li > a:hover {
-    color: orchid;
+    color: rgba(40, 115, 255, 0.883);
     background-color: white;
 }
+
 
 
 
@@ -98,7 +99,6 @@ body {
 .carousel-indicators img {
     position: absolute;
     width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
     
@@ -269,3 +269,175 @@ p {
     margin:0 auto 30px;
 
 }
+
+/* MEDIA QUERIES ARE BEING HELD UNDER THIS PRECIOUS ROW BORN BY DOOM AND SUFFERING */
+
+
+
+
+
+/*Iphone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .carousel-caption {
+        position: absolute;
+        top: 88%;
+        left:0;
+        color:black;
+    
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       border: none;
+       justify-content: center;
+        
+    
+    
+    }
+    
+    .carousel-caption p {
+        line-height: 0.9em;
+        overflow-wrap:break-word;
+        text-align: right;
+        color: #333333;
+        
+        text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+        color: #333333;
+        
+        font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    }
+
+   #carousel-example-generic {
+    bottom:20%;  
+    
+   }
+
+   .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  
+    font-size: 2em;
+   margin-right:2em;
+    color: rgb(255, 255, 255);
+    
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    font-size: 2em;
+   margin-right: 0.3em;
+    right: 0;
+    color: rgb(255, 255, 255);
+}
+.item {
+    height: 85vh;
+    width: 85vw;
+    justify-content: center;
+    margin-left:0.65em;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 10px;
+}
+    
+}
+
+
+
+
+
+/*Iphone 6 7 8 Plus*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px)  {
+
+}
+/*Ipad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+   
+        .carousel-caption {
+            position: absolute;
+            top: 94%;
+            left:0;
+            color:black;
+            width: 100%;
+           display: flex;
+           flex-direction: column;
+           border: none;
+           justify-content: center;
+            
+        
+        
+        }
+        
+        .carousel-caption p {
+            font-size:1.2em;
+            line-height: 1em;
+            overflow-wrap:break-word;
+            text-align: right;
+            text-shadow: none;
+            font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        }
+    
+       #carousel-example-generic {
+        bottom:20%;  
+        
+       }
+    
+       .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+      
+        font-size: 2em;
+       margin-right:2em;
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        font-size: 2em;
+       margin-right: 2em;
+        right: 0;
+        color: rgb(255, 255, 255);
+    }
+    .item {
+        height: 85vh;
+        width: 85vw;
+        justify-content: center;
+        margin-left:0.65em;
+    }
+
+    .carousel-indicators {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        
+    }
+
+    .carousel-indicators img {
+      
+    }
+    
+    .carousel-indicators li,
+    .carousel-indicators li.active {
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        position: relative;
+       
+    }
+    
+    .carousel-indicators li,
+    .carousel-indicators li.active {
+        width: 80px;
+        height: 80px;
+        background-color: #fff;
+        position: relative;
+        margin-top: 10px;
+    }  
+    
+
+   
+    
+    
+    }
